@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Parkinsans", serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c0c0f4e9;
+    color: #16161a;
+}
+
+.card-container{
+    min-width: 400px;
+    width: 100%;
+    background-image: linear-gradient(45deg, #2f4680, #500ae4);
+    border-radius: 8px;
+    padding: 16px 32px;
+}
+
+.card-container header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 8px;
+    color: #fffffe;
+    margin: 24px 0  ;
+}
+
+.card-container header h1{
+    font-size: 48px;
+}
+
+.card-container .search{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    column-gap: 16px;
+}
+
+.card-container .search input{
+    font-size: 20px;
+    border-radius: 32px;
+    padding: 12px 16px;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.card-container .search .search-btn{
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+    border: 0.024rem solid #7f5af0;
+    color:#7f5af0 ;
+    transition: all 0.2s;
+    padding: 0;
+}
+
+.card-container .search .search-btn:hover{
+    box-shadow:  -1px 2px 8px 0px rgba(127,90,240,1);
+    background-color: #7f5af0;
+    color: #fffffe ;
+    border: 1px solid #7f5af0;
+    cursor: pointer;
+}
+
+.weatherInfo{
+    color: #fffffe;
+    margin: 18px;
+    text-align: center;
+}
+
+.weatherInfo h2{
+ font-size: 40px;
+ font-weight: 900;
+}
+
+.weather-icon{
+    width: 150px;
+    margin: 30px 0;
+}
+
+.windAndHumidity{
+    display: flex;
+    justify-content: space-between;
+    color: #fffffe;
+    margin-bottom: 12px;
+}
+
+.windAndHumidity p{
+    font-size: 24px;
+}
+
+.windAndHumidity img{
+    width: 48px;
+}
+footer{
+    color: #fffffe;
+    text-align: center;
+}
