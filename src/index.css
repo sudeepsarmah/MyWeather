@@ -74,6 +74,10 @@ body{
     text-align: center;
 }
 
+.inactive{
+    display: none;
+}
+
 .weatherInfo h2{
  font-size: 40px;
  font-weight: 900;
@@ -101,4 +105,5 @@ body{
 footer{
     color: #fffffe;
     text-align: center;
+    margin-top: 12px;
 }
