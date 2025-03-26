@@ -148,11 +148,6 @@ footer{
         width: 100px;
     }
 
-    .windAndHumidity {
-        flex-direction: column;
-        align-items: center;
-    }
-
     .windAndHumidity p {
         font-size: 18px;
     }
